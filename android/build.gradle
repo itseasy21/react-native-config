@@ -16,6 +16,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
+    namespace 'com.lugg.RNCConfig'
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
